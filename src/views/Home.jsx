@@ -13,7 +13,7 @@ const Home = () => {
         </h3>
       </div>
       <div className="imgHomeContainer">
-        <img src="src\assets\img\aipizza2.jpg" alt="pizzaWelcome" />
+        <img src="src/assets/img/aipizza2.jpg" alt="pizzaWelcome" />
       </div>
       <hr className="rpgui-container framed-golden-2" />
     </div>
