@@ -1,0 +1,42 @@
+/* salesPage */
+
+
+.customBill {
+    width: fit-content;
+    height: fit-content;
+}
+
+.customBillEmpty {
+    display: inline-flex;
+    margin: 0 30rem;
+}
+
+.customcheck {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: small;
+}
+
+.customIndividualCheck {
+    background-image: none !important;
+    background-color: #242424 !important;
+    width: 11rem;
+}
+
+.customHR {
+    height: 1px !important;
+    border-width: 2px !important;
+    padding: 2px !important;
+
+}
+
+.customTextPlace {
+    text-align: end;
+    padding-top: 1rem !important;
+    font-size: 24px !important;
+    color: #dfded6
+}

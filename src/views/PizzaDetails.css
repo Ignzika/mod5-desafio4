@@ -1,0 +1,8 @@
+.pizzaDetails {
+    height: 90%;
+    margin-top: 5rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}

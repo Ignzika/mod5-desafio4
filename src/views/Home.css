@@ -1,0 +1,12 @@
+.divPage {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.divPage h1 {
+    margin-top: -0.8rem;
+}
+
+.imgHomeContainer img {
+    width: 500px;
+}

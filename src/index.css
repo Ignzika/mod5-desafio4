@@ -1,0 +1,42 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+a {
+  font-weight: 500;
+  color: #ffffffca;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(255, 255, 0, 0.583);
+  -webkit-text-stroke: 0.4px black
+}
+
+body {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  min-width: 320px;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

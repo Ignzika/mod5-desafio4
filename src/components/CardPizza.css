@@ -1,0 +1,243 @@
+/* menu card css */
+
+.pizzaMenu .pizzaCard {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizzaMenu .imgContainerCustom {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 300px;
+
+}
+
+.pizzaMenu img {
+    width: 290px;
+    object-fit: fill;
+
+}
+
+.pizzaMenu .customIcon {
+    margin-top: -1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.pizzaMenu .pizzaCard .pizzaIngredients {
+    display: flex;
+    width: 15rem;
+    height: 2rem;
+    align-items: center;
+    margin-left: -2.3rem;
+
+}
+
+.pizzaMenu .customPrice {
+    width: fit-content;
+    align-self: center;
+}
+
+.pizzaMenu .customContainerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pizzaMenu .CustomButtonSection {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.pizzaMenu .customButton1 {
+    width: 25%;
+}
+
+/* detail card css */
+
+.pizzaDetails .pizzaCard {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: c;
+    width: 100%;
+}
+
+.pizzaDetails .pizzaName {
+    width: 10rem;
+    display: inline-block;
+    position: fixed;
+    margin: -0.1rem 0 0 32.5rem;
+    text-transform: uppercase;
+}
+
+
+.pizzaDetails .imgContainerCustom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 300px;
+
+}
+
+.pizzaDetails img {
+    image-rendering: pixelated;
+    filter: blur(1px) saturate(50%);
+
+}
+
+.pizzaDetails .customIcon {
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.pizzaDetails .customInfo {
+    inline-size: 28rem;
+    margin-left: 2.5rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.pizzaDetails .pizzaCard ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.pizzaDetails .pizzaCard .pizzaIngredients {
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+    height: 4rem;
+    align-items: center;
+
+}
+
+.pizzaDetails .pizzaCard .CustomButtonSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.pizzaDetails .pizzaCard .customPrice {
+    height: fit-content;
+    padding: 2rem 0;
+    align-self: center;
+}
+
+.pizzaDetails .customButton1 {
+    width: fit-content;
+    padding: 2.2rem;
+    font-size: 2rem;
+    line-height: 0.5rem;
+
+}
+
+.pizzaDetails .customButton2 {
+    width: fit-content;
+    margin: 1.5rem 0;
+
+}
+
+/* salesPage card css */
+
+
+.salesPage .pizzaCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 20rem; */
+}
+
+.salesPage .pizzaCard .imgContainerCustom {
+    width: fit-content;
+    height: fit-content;
+}
+
+.salesPage .pizzaCard img {
+    width: 100px;
+}
+
+.salesPage .pizzaCard .pizzaName {
+    width: 10rem;
+}
+
+.salesPage .pizzaCard .customInfo {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+salesPage .pizzaCard .pizzaInfo {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.salesPage .pizzaCard .ingredientsInfo {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.salesPage .pizzaCard ul {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.salesPage .pizzaCard .customButton2 {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+
+}
+
+.salesPage .pizzaCard .customPrice {
+    width: fit-content;
+    height: fit-content;
+    font-size: smaller;
+
+}
+
+.salesPage .pizzaCard .CustomButtonSection {
+    width: fit-content;
+    padding-top: 1rem;
+
+}
+
+.salesPage .pizzaCard .customAddMinus {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.salesPage .pizzaCard .customContainerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.salesPage .pizzaCard .customAddMinus :not(.textAmount) {
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+.salesPage .pizzaCard .customButton1 {
+    width: fit-content;
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 0.5rem;
+
+}

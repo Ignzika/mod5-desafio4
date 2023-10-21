@@ -1,0 +1,14 @@
+.NotFound {
+    height: 90%;
+    padding: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+img {
+    height: 120%;
+    image-rendering: pixelated;
+
+}

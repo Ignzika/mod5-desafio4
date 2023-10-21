@@ -1,0 +1,13 @@
+.salesPage {
+    height: 90%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.salesPage h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin: -10px 0;
+}

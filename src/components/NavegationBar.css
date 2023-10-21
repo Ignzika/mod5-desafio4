@@ -1,0 +1,13 @@
+.customNavBar {
+    width: 80rem;
+    top: 0;
+    margin-top: -2rem !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+customButton {
+    width: 15rem !important;
+    text-align: center;
+    text-justify: distribute;
+}
