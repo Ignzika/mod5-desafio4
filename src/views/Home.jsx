@@ -1,5 +1,5 @@
 import "./Home.css";
-import "/src/assets/img/aipizza2.jpg";
+import aipizza2 from "/src/assets/img/aipizza2.jpg";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
         </h3>
       </div>
       <div className="imgHomeContainer">
-        <img src="src/assets/img/aipizza2.jpg" alt="pizzaWelcome" />
+        <img src={aipizza2} alt="pizzaWelcome" />
       </div>
       <hr className="rpgui-container framed-golden-2" />
     </div>
